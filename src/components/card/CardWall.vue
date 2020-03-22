@@ -15,11 +15,11 @@
 
 <style scoped lang="scss" type="text/scss">
   .card-wall {
-    width: 292px;
-    min-width: 292px;
-    height: 190px;
+    width: 100%;
+    height: 100%;
     position: relative;
-    background-position: center;
+    background-size: cover;
+    background-position: center center;
     font-size: 24px;
     font-family: $font-family-zh;
     font-weight: 300;

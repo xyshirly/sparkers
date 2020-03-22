@@ -1,11 +1,7 @@
 <template>
   <div class="card-info" :style="{ backgroundImage: 'url(' + item.imageUrl + ')' }">
-    <!--<div class="layer content flex-column justify-content-end">
-      <p class="label title">{{ title }}</p>
-      <p class="label subtitle">{{ subtitle }}</p>
-    </div>
-    <div class="layer shadow"></div>-->
   </div>
+<!--  <img :src="item.imageUrl">-->
 </template>
 <script>
   export default {
@@ -15,11 +11,11 @@
 </script>
 <style lang="scss" scoped type="text/scss">
   .card-info {
-    min-width: 232px;
-    height: 232px;
+    width: 100%;
+    height: 100%;
     margin-right: 12px;
     position: relative;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
 
     .layer {

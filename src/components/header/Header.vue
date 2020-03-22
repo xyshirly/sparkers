@@ -44,6 +44,10 @@
 <style scoped lang="scss" type="text/scss">
   header {
     padding: 0 62px;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
 
     .logo {
       font-family:Avenir;
